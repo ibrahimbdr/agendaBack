@@ -1,0 +1,264 @@
+repo_name: ibrahimbdr/agendaBack
+report_id: fe965f1f8271a6ee51b306ca61b95af7
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-20T12:28:19+00:00'
+requested_by: ibrahimbdr
+provider: github
+branch: main
+detected_tools_count: 19
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: crypto
+  description: This package is no longer supported and has been deprecated
+  package_url: https://www.npmjs.com/crypto
+  version: 1.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16387/default_000ae7ee50b56e0ecdb07d3662d4b3fa7f4cbdcc.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: path
+  description: Node.JS path module
+  package_url: https://www.npmjs.com/path
+  version: 0.12.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16082/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ibrahimbdr/agendaBack/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: ibrahim badr
+  last_updated_on: 2023-07-10 21:15:50.000000000 Z
